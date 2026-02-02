@@ -1,5 +1,5 @@
 import mongoose, { Document, Schema } from 'mongoose';
-import User from './User';
+import User from './User.model';
 
 export interface IExpense extends Document {
   title: string;

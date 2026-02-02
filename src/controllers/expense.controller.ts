@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from 'express';
-import Expense from '../models/expense';
+import Expense from '../models/Expense.model';
 
 export const addExpense = async (
   req: Request,

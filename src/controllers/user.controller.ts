@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
-import User from '../models/User';
-import Expense from '../models/expense';
+import User from '../models/User.model';
+import Expense from '../models/Expense.model';
 import ErrorResponse from '../utils/errorResponse';
 
 export const createUser = async (
